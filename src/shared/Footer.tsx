@@ -26,7 +26,7 @@ export default function Footer() {
           <Link to="/news">NYHETER</Link>
         </li>
         <li>
-          <Link to="/news">KONTAKTA OSS</Link>
+          <Link to="/contact">KONTAKTA OSS</Link>
         </li>
       </ul>
       <div className="footer-icons-bar">
