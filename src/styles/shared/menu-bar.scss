@@ -5,7 +5,10 @@
   height: 100%;
   margin-left: $space-small;
 }
-
+.nav-header {
+  background-color: $color-main;
+  width: 100%;
+}
 .nav-bar {
   font-size: 1.2rem;
   background-color: $color-main;
@@ -16,6 +19,8 @@
   z-index: 10;
   position: relative;
   top: 0;
+  max-width: 1600px;
+  margin: auto;
 }
 .nav-links li {
   list-style: none;

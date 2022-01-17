@@ -1,42 +1,42 @@
 [
   {
     "id": "1",
-    "city": "Produkt 1",
+    "city": "Halmstad",
     "address": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis",
-    "type": "Sale office",
+    "type": "Head office",
     "telephone": "070 XX XX XX XX"
   },
   {
     "id": "2",
-    "city": "Produkt 1",
+    "city": "Copenhagen",
     "address": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis",
     "type": "Sale office",
     "telephone": "070 XX XX XX XX"
   },
   {
     "id": "3",
-    "city": "Produkt 1",
+    "city": "Oslo",
     "address": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis",
     "type": "Sale office",
     "telephone": "070 XX XX XX XX"
   },
   {
     "id": "4",
-    "city": "Produkt 1",
+    "city": "Bangkok",
     "address": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis",
     "type": "Sale office",
     "telephone": "070 XX XX XX XX"
   },
   {
     "id": "5",
-    "city": "Produkt 1",
+    "city": "Texas",
     "address": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis",
     "type": "Sale office",
     "telephone": "070 XX XX XX XX"
   },
   {
     "id": "6",
-    "city": "Produkt 1",
+    "city": "City",
     "address": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis",
     "type": "Sale office",
     "telephone": "070 XX XX XX XX"

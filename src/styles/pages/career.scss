@@ -1,0 +1,29 @@
+.career {
+  width: 95%;
+  max-width: 920px;
+  position: relative;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 2rem 1rem;
+  padding: 2rem 1rem;
+  margin: auto;
+  .job-card {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    background-color: $color-main-light;
+    padding: 8px;
+    h3 {
+      color: $color-main;
+      small {
+        font-size: 14px;
+        font-weight: bold;
+        color: $color-gray;
+      }
+    }
+    button {
+      align-self: flex-end;
+      margin-top: 8px;
+    }
+  }
+}
