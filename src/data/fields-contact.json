@@ -1,0 +1,22 @@
+{
+  "email": {
+    "label": "Email",
+    "type": "email",
+    "instructions": "Please enter a valid email."
+  },
+  "name": {
+    "label": "Name",
+    "type": "text",
+    "instructions": "Name cannot be empty."
+  },
+  "telephone": {
+    "label": "Phone number",
+    "type": "text",
+    "instructions": "Lastname cannot be empty."
+  },
+  "message": {
+    "label": "Message",
+    "type": "textarea",
+    "instructions": "Language cannot be empty."
+  }
+}

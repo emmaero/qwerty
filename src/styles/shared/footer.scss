@@ -1,0 +1,36 @@
+footer {
+  width: 100%;
+  background-color: $color-main-light;
+}
+.footer-links {
+  max-width: 840px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  li {
+    text-align: center;
+    padding: 8px 0;
+  }
+}
+.footer-icons-bar {
+  width: 100%;
+  background-color: $color-main;
+  font-size: 24px;
+  color: $color-main-light;
+  .icons {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    a {
+      padding: 8px;
+    }
+  }
+}
+@media screen and (min-width: 1100px) {
+  .footer-links {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

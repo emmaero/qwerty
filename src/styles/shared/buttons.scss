@@ -1,0 +1,40 @@
+.btn {
+}
+.button-secondary {
+  background-color: none;
+  border: 1px solid $color-main-light;
+  padding: 0.5rem;
+  display: block;
+  width: max-content;
+  font-size: 1rem;
+  cursor: pointer;
+  &:hover {
+    background-color: $color-main;
+    color: $color-main-light;
+    border: 1px solid $color-main;
+  }
+}
+.button-main {
+  background-color: $color-main;
+  color: $color-main-light;
+  border: 1px solid $color-main;
+  padding: 0.5rem;
+  display: block;
+  width: max-content;
+  font-size: 1rem;
+  min-width: 200px;
+  cursor: pointer;
+  &:hover {
+    background-color: $color-main-light;
+    color: $color-main;
+    border: 1px solid $color-main;
+  }
+}
+.button-link {
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+  color: $color-main;
+  cursor: pointer;
+  text-decoration: underline;
+}

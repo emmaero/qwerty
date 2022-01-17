@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "Produkt 1",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis",
+    "imageUrl": "product1.jpeg"
+  },
+  {
+    "id": "2",
+    "name": "Produkt 2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis",
+    "imageUrl": "product2.jpeg"
+  },
+  {
+    "id": "3",
+    "name": "Produkt 3",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis",
+    "imageUrl": "product3.png"
+  },
+  {
+    "id": "4",
+    "name": "Produkt 4",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis",
+    "imageUrl": "product4.png"
+  },
+  {
+    "id": "5",
+    "name": "Produkt 5",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis",
+    "imageUrl": "product5.jpg"
+  }
+]

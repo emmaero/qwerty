@@ -1,0 +1,15 @@
+// _base
+@import "./_base/variables.scss";
+@import "./_base/layout.scss";
+
+// shared
+@import "./shared/menu-bar.scss";
+@import "./shared/footer.scss";
+@import "./shared/atom.scss";
+@import "./shared/buttons.scss";
+
+//pages
+@import "./pages/home.scss";
+@import "./pages/products.scss";
+@import "./pages/offices.scss";
+@import "./pages/contact.scss";

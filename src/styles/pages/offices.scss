@@ -1,0 +1,39 @@
+.offices {
+  width: 95%;
+  max-width: 920px;
+  position: relative;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 2rem 1rem;
+  padding: 2rem 1rem;
+  margin: auto;
+}
+.office-card {
+  position: relative;
+  background-color: $color-main-light;
+  transition: 250ms all;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.5rem;
+  align-items: center;
+  button {
+    position: relative;
+    float: right;
+    align-self: flex-end;
+  }
+  p {
+    text-align: center;
+  }
+}
+@media (min-width: 750px) {
+  .offices {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media (min-width: 920px) {
+  .offices {
+    grid-template-columns: repeat(3, auto);
+  }
+}
