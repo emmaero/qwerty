@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import sectionImage from "../assets/images/semi-complete.jpg";
 export default function Home() {
   return (
-    <div>
+    <main>
       <div className="hero">
         <div className="hero-content">
           <div className="intro-box">
@@ -29,6 +29,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </div>
+    </main>
   );
 }

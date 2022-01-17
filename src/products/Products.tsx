@@ -12,7 +12,7 @@ export default function Products() {
     />
   ));
   return (
-    <div>
+    <main>
       <div className="top-image">
         <div className="top-image-content">
           <div className="intro-box">
@@ -22,15 +22,12 @@ export default function Products() {
               aliquam, purus sit amet luctus venenatis, lectus magna fringilla
               urna, porttitor rhoncus dolor purus non enim
             </p>
-            <Link to="/products" className="button-secondary">
-              View products
-            </Link>
           </div>
         </div>
       </div>
       <section className="general-section">
         <div className="products">{products}</div>
       </section>
-    </div>
+    </main>
   );
 }
