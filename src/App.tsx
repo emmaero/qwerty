@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Career from "./career/Career";
 import Contact from "./contact/Contact";
 import Home from "./home/Home";
+import News from "./news/News";
 import Offices from "./offices/Offices";
 import Products from "./products/Products";
 import Footer from "./shared/Footer";
@@ -22,7 +23,8 @@ function App() {
           />
           <Route path="/offices" caseSensitive={false} element={<Offices />} />
           <Route path="/contact" caseSensitive={false} element={<Contact />} />
-          <Route path="/career" caseSensitive={false} element={<Career/>} />
+          <Route path="/career" caseSensitive={false} element={<Career />} />
+          <Route path="/news" caseSensitive={false} element={<News />} />
         </Routes>
         <Footer />
       </BrowserRouter>

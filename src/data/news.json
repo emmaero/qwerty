@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "title": "News title 1",
+    "date": "2021-10-12",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis"
+  },
+  {
+    "id": "2",
+    "title": "News title 2",
+    "date": "2021-11-11",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis"
+  },
+  {
+    "id": "3",
+    "title": "News title 3",
+    "date": "2021-12-12",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis"
+  },
+  {
+    "id": "4",
+    "title": "News title 4",
+    "date": "2022-01-08",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis"
+  },
+  {
+    "id": "5",
+    "title": "News title 5",
+    "date": "2021-08-12",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis"
+  },
+  {
+    "id": "6",
+    "title": "News title 6",
+    "date": "2021-11-12",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis"
+  },
+  {
+    "id": "7",
+    "title": "News title 7",
+    "date": "2021-11-17",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis"
+  },
+  {
+    "id": "8",
+    "title": "News title 8",
+    "date": "2021-11-22",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis"
+  },
+  {
+    "id": "9",
+    "title": "News title 9",
+    "date": "2021-11-29",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis"
+  },
+  {
+    "id": "10",
+    "title": "News title 10",
+    "date": "2021-01-12",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis"
+  }
+]

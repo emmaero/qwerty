@@ -1,25 +1,25 @@
 [
   {
     "id": "1",
-    "title": "Jobs 1",
+    "position": "Jobs 1",
     "date": "2021-11-12",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis"
   },
   {
     "id": "2",
-    "title": "Jobs 2",
+    "position": "Jobs 2",
     "date": "2021-12-12",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis"
   },
   {
     "id": "3",
-    "title": "Jobs 3",
+    "position": "Jobs 3",
     "date": "2021-11-17",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis"
   },
   {
     "id": "4",
-    "title": "Jobs 4",
+    "position": "Jobs 4",
     "date": "2022-01-12",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis"
   }
