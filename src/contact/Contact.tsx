@@ -10,24 +10,7 @@ export default function Contact() {
   const [message, setMessage] = useState("");
   function handleSubmit(event: FormEvent) {
     event.preventDefault();
-
-    fetch("http://localhost:3000/send", {
-      method: "POST",
-      body: JSON.stringify(message),
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json",
-      },
-    })
-      .then((response) => response.json())
-      .then((response) => {
-        if (response.status === "success") {
-          alert("Message Sent.");
-          resetForm();
-        } else if (response.status === "fail") {
-          alert("Message failed to send.");
-        }
-      });
+// send email
   }
   function resetForm() {
     setEmail("");
