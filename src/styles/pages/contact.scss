@@ -1,27 +1,42 @@
 form {
-  width: 360px;
+  width: 100vw;
+  max-width: 360px;
   margin: 3rem auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   justify-items: center;
 
-  .input {
-    height: 44px;
-    width: 100%;
-    padding: 0 1rem;
-    border: 2px solid $color-main-light;
-    margin-top: 8px;
+  .invalid {
+    input {
+      border: 1px solid #b40e0e;
+      background-color: #fddddd;
+    }
   }
-  textarea {
-    min-height: 80px;
-    width: 100%;
-    padding: 0 1rem;
-    border: 2px solid $color-main-light;
-    margin-top: 8px;
-  }
-  .input-wrapper {
+  .form-control {
     margin: 8px 0px;
+    input {
+      height: 44px;
+    }
+    textarea {
+      min-height: 88px;
+    }
+    input,
+    textarea {
+      width: 100%;
+      padding: 0 1rem;
+      border: 2px solid $color-main-light;
+      margin: 8px 0px 16px 0;
+      font: inherit;
+    }
+    .error-text {
+      color: #b40e0e;
+    }
+  }
+  input:focus {
+    outline: none;
+    border-color: $color-main;
+    background-color: #00266473;
   }
   h4 {
     text-align: center;
