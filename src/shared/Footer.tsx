@@ -5,6 +5,7 @@ import {
   faLinkedin,
   faTwitterSquare,
 } from "@fortawesome/free-brands-svg-icons";
+import logo from "../assets/images/logo.png";
 
 import { Link } from "react-router-dom";
 
@@ -29,6 +30,15 @@ export default function Footer() {
           <Link to="/contact">KONTAKTA OSS</Link>
         </li>
       </ul>
+      <div className="footer-below">
+        <div>
+          <a href="#">
+            <img src={logo} alt="Qwerty" />
+          </a>
+        </div>
+        <p>070 XX XX XX XX</p>
+        <address>Andersbergsringen 41 | 30221 | Halmstad</address>
+      </div>
       <div className="footer-icons-bar">
         <div className="icons">
           <a href="www.facebook.com">
