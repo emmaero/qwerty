@@ -1,23 +1,6 @@
-import React, { FormEvent, useState } from "react";
-import InputField from "../shared/InputField";
-import option from "../data/fields-contact.json";
-import TextArea from "../shared/TextArea";
+import ContactForm from "./ContactForm";
 
 export default function Contact() {
-  const [email, setEmail] = useState("");
-  const [name, setName] = useState("");
-  const [telephone, setTelephone] = useState("");
-  const [message, setMessage] = useState("");
-  function handleSubmit(event: FormEvent) {
-    event.preventDefault();
-// send email
-  }
-  function resetForm() {
-    setEmail("");
-    setName("");
-    setTelephone("");
-    setMessage("");
-  }
   return (
     <>
       <section className="top-section">
@@ -31,18 +14,7 @@ export default function Contact() {
           </p>
         </article>
       </section>
-      <form onSubmit={handleSubmit}>
-        <InputField state={[name, setName]} options={option.name} />
-        <InputField state={[email, setEmail]} options={option.email} />
-        <InputField
-          state={[telephone, setTelephone]}
-          options={option.telephone}
-        />
-        <TextArea state={[message, setMessage]} options={option.message} />
-        <button type="submit" className="button-main">
-          Send
-        </button>
-      </form>
+      <ContactForm />
     </>
   );
 }
